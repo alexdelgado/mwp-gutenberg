@@ -1,0 +1,24 @@
+{
+  "name": "mwp/gutenberg",
+  "description": "A custom WordPress Gutenberg plugin.",
+  "type": "project",
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {},
+  "license": "GPL-2.0-or-later",
+  "authors": [{
+    "name": "Alex Delgado",
+    "email": "burn@fowardslash.com"
+  }],
+  "autoload": {
+    "psr-4": {
+      "MWP\\Gutenberg\\": "php"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MWP\\Gutenberg\\Tests\\": "tests/"
+    }
+  }
+}
