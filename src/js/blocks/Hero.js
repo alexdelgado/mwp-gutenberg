@@ -94,7 +94,7 @@ registerBlockType(
 				return (
 					<Hero
 						classes={[className]}
-						style={{background: `url('${background}')`, textAlign: alignment }}
+						style={{backgroundImage: `url('${background}')`, textAlign: alignment }}
 						title={title}
 						tagline={tagline}
 					/>
@@ -113,7 +113,7 @@ registerBlockType(
 
 			return (
 				<Hero
-					style={{background: `url('${background}')`, textAlign: alignment }}
+					style={{backgroundImage: `url('${background}')`, textAlign: alignment }}
 					title={title}
 					tagline={tagline}
 				/>
