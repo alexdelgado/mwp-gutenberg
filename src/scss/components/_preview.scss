@@ -1,0 +1,33 @@
+.mwp-gutenberg-preview {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+	$root: &;
+
+	&:hover {
+		#{$root} {
+			&__remove {
+				display: block;
+			}
+		}
+	}
+
+	&__remove {
+		background: rgba(0, 0, 0, .8);
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		display: none;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+
+		&::before {
+			font-size: 100px;
+		}
+	}
+}

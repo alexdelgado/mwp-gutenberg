@@ -1,0 +1,28 @@
+.mwp-gutenberg-form {
+	background-color: #f0f0f0;
+	padding: 15px;
+
+	&__title {
+		margin: 0 0 15px 0 !important;
+	}
+
+	&__group,
+	&__label,
+	&__input {
+		width: 100%;
+	}
+
+	&__group {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+
+	.components-form-file-upload,
+	.components-media-library-button {
+		display: inline-block;
+		margin: 0 5px 5px 0;
+		vertical-align: top;
+	}
+
+}
