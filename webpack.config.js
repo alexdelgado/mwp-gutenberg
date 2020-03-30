@@ -17,8 +17,7 @@ if (isProduction) {
 module.exports = {
 	...defaultConfig,
 	entry: {
-		editor: './src/scss/editor.scss',
-		plugin: ['./src/js/plugin.js', './src/scss/plugin.scss'],
+		plugin: ['./src/js/plugin.js', './src/scss/editor.scss'],
 	},
 	output: {
 		filename: '[name].min.js',

@@ -93,15 +93,8 @@ class Plugin {
 
         wp_register_style(
             'mwp-gutenberg-editor',
-             MWP_PLUGIN_URI . '/build/editor.min.css',
-            array( 'wp-edit-blocks' ),
-            filemtime( MWP_PLUGIN_PATH. 'build/editor.min.css' )
-        );
-
-        wp_register_style(
-            'mwp-gutenberg',
              MWP_PLUGIN_URI . '/build/plugin.min.css',
-            array( ),
+            array( 'wp-edit-blocks' ),
             filemtime( MWP_PLUGIN_PATH. 'build/plugin.min.css' )
         );
 
@@ -110,7 +103,6 @@ class Plugin {
         $defaults = array(
             'editor_script' => 'mwp-gutenberg',
             'editor_style'  => 'mwp-gutenberg-editor',
-            'style'         => 'mwp-gutenberg'
         );
 
         foreach ( $blocks as $key => $value ) {
@@ -120,8 +112,7 @@ class Plugin {
                     $key,
                     array(
                         'editor_script' => $value['editor_script'],
-                        'editor_style'  => $value['editor_style'],
-                        'style'         => $value['style']
+                        'editor_style'  => $value['editor_style']
                     )
                 );
             } else {
@@ -129,8 +120,7 @@ class Plugin {
                     $value,
                     array(
                         'editor_script' => $defaults['editor_script'],
-                        'editor_style'  => $defaults['editor_style'],
-                        'style'         => $defaults['style']
+                        'editor_style'  => $defaults['editor_style']
                     )
                 );
             }

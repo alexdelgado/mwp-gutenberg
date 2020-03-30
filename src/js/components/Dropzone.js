@@ -4,7 +4,7 @@ const { withState } = wp.compose
 const { __ } = wp.i18n
 
 
-function Dropzone({ isUploading, image, onFileChanged, setState }) {
+function Dropzone({ isUploading, onFileChanged, setState }) {
 	const ALLOWED_MEDIA_TYPES = ['image']
 
 	const onFileUploaded = (file) => {
