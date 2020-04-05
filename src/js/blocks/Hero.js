@@ -11,15 +11,11 @@ registerBlockType(
 	'mwp/hero',
 	{
 		title: 'Hero',
+		category: 'mwp-gutenberg',
 		icon: {
 			src: BlockIcon
 		},
-		category: 'mwp-gutenberg',
 		attributes: {
-			alignment: {
-				default: 'none',
-				type: 'string'
-			},
 			background: {
 				default: '',
 				type: 'string'
@@ -36,7 +32,6 @@ registerBlockType(
 		edit: (props) => {
 			const {
 				attributes: {
-					alignment,
 					background,
 					title,
 					tagline
@@ -94,7 +89,7 @@ registerBlockType(
 				return (
 					<Hero
 						classes={[className]}
-						style={{backgroundImage: `url('${background}')`, textAlign: alignment }}
+						style={{backgroundImage: `url('${background}')` }}
 						title={title}
 						tagline={tagline}
 					/>
