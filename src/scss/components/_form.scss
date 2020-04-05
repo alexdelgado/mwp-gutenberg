@@ -25,4 +25,15 @@
 		vertical-align: top;
 	}
 
+	.components-placeholder {
+		&__label,
+		&__instructions {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		&__fieldset {
+			justify-content: center;
+		}
+	}
 }

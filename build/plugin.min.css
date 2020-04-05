@@ -1,1 +1,55 @@
-.mwp-gutenberg-form{background-color:#f0f0f0;padding:15px}.mwp-gutenberg-form__title{margin:0 0 15px!important}.mwp-gutenberg-form__group,.mwp-gutenberg-form__input,.mwp-gutenberg-form__label{width:100%}.mwp-gutenberg-form__group{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:10px}.mwp-gutenberg-form .components-form-file-upload,.mwp-gutenberg-form .components-media-library-button{display:inline-block;margin:0 5px 5px 0;vertical-align:top}.wp-block-mwp-hero{background-color:#f0f0f0;color:#fff;min-height:150px;text-align:center;width:100%}.mwp-gutenberg-preview,.wp-block-mwp-hero{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.mwp-gutenberg-preview{position:relative}.mwp-gutenberg-preview:hover .mwp-gutenberg-preview__remove{display:block}.mwp-gutenberg-preview__remove{background:rgba(0,0,0,.8);border:none;color:#fff;cursor:pointer;display:none;height:100%;position:absolute;left:0;top:0;width:100%}.mwp-gutenberg-preview__remove:before{font-size:100px}
+.mwp-gutenberg-form {
+  background-color: #f0f0f0;
+  padding: 15px; }
+  .mwp-gutenberg-form__title {
+    margin: 0 0 15px 0 !important; }
+  .mwp-gutenberg-form__group, .mwp-gutenberg-form__label, .mwp-gutenberg-form__input {
+    width: 100%; }
+  .mwp-gutenberg-form__group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px; }
+  .mwp-gutenberg-form .components-form-file-upload,
+  .mwp-gutenberg-form .components-media-library-button {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    vertical-align: top; }
+  .mwp-gutenberg-form .components-placeholder__label, .mwp-gutenberg-form .components-placeholder__instructions {
+    margin-left: auto;
+    margin-right: auto; }
+  .mwp-gutenberg-form .components-placeholder__fieldset {
+    justify-content: center; }
+
+.wp-block-mwp-hero {
+  align-items: center;
+  background-color: #f0f0f0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  min-height: 150px;
+  text-align: center;
+  width: 100%; }
+
+.mwp-gutenberg-preview {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative; }
+  .mwp-gutenberg-preview:hover .mwp-gutenberg-preview__remove {
+    display: block; }
+  .mwp-gutenberg-preview__remove {
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; }
+    .mwp-gutenberg-preview__remove::before {
+      font-size: 100px; }
+
+
+/*# sourceMappingURL=plugin.min.css.map*/
