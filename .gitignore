@@ -1,6 +1,10 @@
 # Composer
 vendor/
 
+# Cypress
+cypress/screenshots
+cypress/videos
+
 # Mac OS X
 .DS_Store
 
