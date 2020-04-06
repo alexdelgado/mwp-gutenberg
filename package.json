@@ -1,0 +1,36 @@
+{
+  "name": "mwp-gutenberg",
+  "version": "1.0.0",
+  "description": "A custom WordPress gutenberg plugin",
+  "main": "src/js/plugin.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@svgr/webpack": "^5.3.0",
+    "@wordpress/scripts": "^7.1.3",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.4.2",
+    "cssnano": "^4.1.10",
+    "cypress": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^8.0.2",
+    "url-loader": "^4.0.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexdelgado/mwp-gutenberg.git"
+  },
+  "author": "Alex Delgado",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/alexdelgado/mwp-gutenberg/issues"
+  },
+  "homepage": "https://github.com/alexdelgado/mwp-gutenberg#readme"
+}

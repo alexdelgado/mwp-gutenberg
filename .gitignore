@@ -1,5 +1,15 @@
 # Composer
-/vendor/
+vendor/
+
+# Cypress
+cypress/screenshots
+cypress/videos
 
 # Mac OS X
 .DS_Store
+
+# NPM
+node_modules/
+
+# Webpack
+build/*.map
